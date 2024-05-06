@@ -1,0 +1,48 @@
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 170px;
+}
+.logoKimba {
+  width: 250px;
+  align-self: baseline;
+  margin: 15px 0 0 15px;
+}
+
+button {
+  border-radius: var(--border-radius-button);
+  color: var(--color-white);
+  border: none;
+  cursor: pointer;
+}
+.centralButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: 250px;
+}
+.stacking-button {
+  background-color: var(--color-black);
+  width: 212px;
+  height: 38px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.lunchpad-button {
+  background-color: var(--color-primary);
+  width: 212px;
+  height: 38px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.connect-button {
+  background-color: var(--color-black);
+  width: 212px;
+  height: 38px;
+
+  margin: 20px 45px 0 auto;
+  font-weight: bold;
+  font-size: 0.9rem;
+}

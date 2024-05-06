@@ -1,0 +1,6 @@
+.valuesContainer {
+  width: var(--container-img-referrence-width);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

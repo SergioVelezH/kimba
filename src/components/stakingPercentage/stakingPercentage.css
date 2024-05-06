@@ -1,0 +1,11 @@
+.sectionContainer {
+  width: var(--container-img-referrence-width);
+}
+.title {
+  text-align: center;
+}
+.returnCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
